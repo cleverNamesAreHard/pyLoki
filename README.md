@@ -1,12 +1,12 @@
 # pyLoki: Covert Communication Using ICMP
 
 ## Overview
-pyLoki demonstrates how ICMP packets can be utilized for covert communication, inspired by the methodologies originally outlined in the Phrack magazine regarding the Loki Project. This repository contains two Python scripts: one for sending messages (`icmp_sender.py`) and another for listening to them (`icmp_listener.py`). This implementation serves as a Python-based proof of concept of the Loki Project, focusing on the use of ICMP for covert channels.
+pyLoki demonstrates how ICMP packets can be utilized for covert communication. This repository contains two Python scripts: one for sending messages (`icmp_sender.py`) and another for listening to them (`icmp_listener.py`). This is a Python-based implementation of the Loki Project as a proof of concept.
 
 ## Features
-- **ICMP Utilization:** Utilizes ICMP Echo and Echo Reply packets for covert data transfers, a technique highlighted in the original Loki Project as described in Phrack.
-- **No Encryption:** The current implementation does not include encryption of messages. This project is designed purely as a proof of concept. Users can extend it to include encryption for secure communications.
-- **Selective Packet Identification:** Employs specialized identifiers to detect and process relevant ICMP packets efficiently, a concept directly drawn from the Loki Project's use of packet identifiers for covert communication.
+- **ICMP Utilization:** Utilizes ICMP Echo and Echo Reply packets for covert data transfers.
+- **No Encryption:** The current implementation does not include encryption of messages. This is designed purely as a proof of concept, and so encryption is not needed.
+- **Selective Packet Identification:** Employs specialized identifiers to detect and process relevant ICMP packets efficiently.
 
 ## Installation
 Clone the repository with the following command:
@@ -38,14 +38,11 @@ Note: Sending messages may also necessitate administrative privileges depending 
 ## Disclaimer
 This project is intended for educational and research purposes only. It is not designed for use in unauthorized or illegal activities. The creators and maintainers of pyLoki are not responsible for misuse of this software or any legal repercussions that result from such misuse. Users are advised to ensure their activities comply with local laws and regulations.
 
-## Contributing
-Contributions that enhance the project are welcome, provided they adhere to this project's guidelines.
-
-## License
-This project is licensed under the MIT License. See the LICENSE file for details.
-
-## Further Information
-For those interested in detailed discussions about covert communications, refer to the original Phrack articles and the discussions in SANS Institute documentation.
-
 ## Acknowledgments
-The development of this project was inspired by the original articles on the Loki Project published in Phrack magazine. Further concepts and enhancements were influenced by subsequent analyses and documentation, including works published by the SANS Institute. We extend our gratitude to all researchers and developers involved in exploring and discussing covert communication methodologies.
+The development of this project was inspired by the Loki Project. We thank the original creators for their pioneering work in network security.
+
+Please see Phrack volumes 49 (whitepaper) and 51 (LOKI2 implementation) for the reference for this repo.
+
+Further resources:
+* James P. Goltz, "Under the Radar: A Look at Three Covert Communications Channels," SANS Institute, January 2003, accessed April 21, 2024, https://www.giac.org/paper/gsec/2601/radar-covert-communications-channels/104464.
+
