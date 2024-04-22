@@ -4,7 +4,7 @@
 pyLoki demonstrates how ICMP packets can be utilized for communication. This repository contains two Python scripts: one for sending messages (`icmp_sender.py`) and another for listening to them (`icmp_listener.py`). This is a Python-based implementation of the Loki Project as a proof of concept.
 
 ## Features
-- **ICMP Utilization:** Utilizes ICMP Echo and Echo Reply packets for covert data transfers.
+- **ICMP Utilization:** Utilizes ICMP Echo and Echo Reply packets for covert message transfers.
 - **No Encryption:** The current implementation does not include encryption of messages. This is designed purely as a proof of concept, and so encryption is not needed.
 - **Selective Packet Identification:** Employs specialized identifiers to detect and process relevant ICMP packets efficiently.
 
