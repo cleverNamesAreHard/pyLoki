@@ -1,7 +1,7 @@
 # pyLoki: Communication Using ICMP
 
 ## Overview
-pyLoki demonstrates how ICMP packets can be utilized for covert communication. This repository contains two Python scripts: one for sending messages (`icmp_sender.py`) and another for listening to them (`icmp_listener.py`). This is a Python-based implementation of the Loki Project as a proof of concept.
+pyLoki demonstrates how ICMP packets can be utilized for communication. This repository contains two Python scripts: one for sending messages (`icmp_sender.py`) and another for listening to them (`icmp_listener.py`). This is a Python-based implementation of the Loki Project as a proof of concept.
 
 ## Features
 - **ICMP Utilization:** Utilizes ICMP Echo and Echo Reply packets for covert data transfers.
@@ -32,7 +32,7 @@ sudo python icmp_sender.py <destination_ip> "Your secret message here"
 Note: Sending messages may also necessitate administrative privileges depending on your system’s setup.
 
 ## Detection and Mitigation
-- **Detection Techniques:** Monitoring for irregular ICMP traffic patterns can help identify the use of covert channels.
+- **Detection Techniques:** Monitoring for irregular ICMP traffic patterns can help identify the use of unauthorized communication channels.
 - **Prevention Strategies:** To prevent unauthorized use, consider disabling or controlling ICMP Echo traffic at your network perimeter.
 
 ## Disclaimer
