@@ -20,14 +20,14 @@ Ensure Python 3.x is installed on your machine before proceeding.
 ### Running the Listener
 To operate the listener script, execute:
 ```bash
-sudo python icmp_listener.py
+python icmp_listener.py
 ```
 Note: Administrative privileges may be required, especially on systems like WSL in Windows.
 
 ### Sending Messages
 To dispatch a message, use the following command:
 ```bash
-sudo python icmp_sender.py <destination_ip> "Your secret message here"
+python icmp_sender.py <destination_ip> "Your secret message here"
 ```
 Note: Sending messages may also necessitate administrative privileges depending on your system’s setup.
 
